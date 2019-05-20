@@ -6,7 +6,7 @@ section {
 #home-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #f7f6ee;
+    background-color: $main-bgcolor;
     #bg-img {
         opacity: 0.5;
         width: 100%;
