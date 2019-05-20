@@ -1,0 +1,20 @@
+
+body {
+    background: $main-bgcolor;
+}
+#top-nav {
+    min-height: 15vh;
+    width: 100%;
+    a {
+        margin: auto;
+        display: block;
+    }
+
+    background-color: #f2aaf5;
+}
+
+footer {
+    min-height: 20vh;
+    width: 100%;
+    background-color: #eeb9d3;
+}
