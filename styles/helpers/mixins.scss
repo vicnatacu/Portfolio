@@ -12,3 +12,15 @@
         margin-left: 0.5%;
       }
 }
+
+@mixin mobile {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 921px) {
+    @content;
+  }
+}

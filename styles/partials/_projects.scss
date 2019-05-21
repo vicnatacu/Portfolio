@@ -1,3 +1,9 @@
+h2 {
+    font-family: $main-font-family;
+    font-style: $main-font-style;
+    color: $project-title;
+}
+
 #grid {
     position: relative;
     width: 60%;
@@ -38,7 +44,5 @@
             width: auto;
         }
     }
-    // * {
-    //     visibility: visible;
-    // }
+    
 }  
