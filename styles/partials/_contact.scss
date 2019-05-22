@@ -1,0 +1,17 @@
+#projects-container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        height: 30px;
+        width: 50px;
+    }
+
+}
+
+#contact {
+    width: 40vh;
+    height: auto;
+    background-color: $nav-hover;
+
+}

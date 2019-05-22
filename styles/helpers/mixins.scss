@@ -20,7 +20,39 @@
 }
 
 @mixin desktop {
-  @media screen and (min-width: 921px) {
+  @media screen and (min-width: 485px) {
     @content;
   }
 }
+
+@mixin h2-style {
+  font-family: $main-font-family;
+  font-style: $main-font-style;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@mixin full-width-centered {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@mixin page-container {
+  
+  min-height: 300px;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
+
+  .banner {
+      display: flex;
+      background: white;
+      width: 100%;
+
+  }
+
+ 
+
+}
+
