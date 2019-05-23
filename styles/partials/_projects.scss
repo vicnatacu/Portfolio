@@ -1,10 +1,8 @@
-h2 {
-    @include h2-style;
-    color: $project-title;
-    
-}
+
 #proj-h2{
+    @include h2-style;
     width:100%;
+    color: $hexagon-color;
 }
 #projects-container {
     height: 100vh;
