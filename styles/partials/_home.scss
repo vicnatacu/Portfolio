@@ -6,6 +6,19 @@ section {
     width: 100%;
 }
 
+#essence {
+    display: flex;
+    font-family: $secondary-font-family;
+    color: $navbar-bgcolor;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-size: 1.75em;
+    
+  
+}
+
+
 
 #home-container {
     display: flex;
@@ -14,8 +27,9 @@ section {
     height: 85vh;
     background-color: $main-bgcolor;
     @include desktop {
-        // height: 60vh;
+        font-size: 1.5em;
     }
+    
     #bg-img {
         opacity: 0.5;
         width: 100vw;
@@ -25,6 +39,7 @@ section {
         @include desktop {
             height: auto;
         }
+      
     }
 }
 

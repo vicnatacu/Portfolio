@@ -1,8 +1,12 @@
 
-#proj-h2{
+#proj-h2 {
     @include h2-style;
     width:100%;
     color: $hexagon-color;
+    @include desktop {
+        font-size: 2em;
+    }
+    
 }
 #projects-container {
     height: 100vh;
@@ -14,6 +18,9 @@
         width: 80%;
         margin-left: 30px;
         margin-top: 5px;
+        @include desktop {
+            font-size: 1.5em;
+        }
         
     }
 
@@ -29,6 +36,7 @@
     padding-top: 30px;
     @include desktop{
         height: auto;
+       
     }
 }
 .clear:after {

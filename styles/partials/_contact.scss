@@ -7,28 +7,38 @@
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    @include desktop {
+        font-size: 1.5em;
+    }
+    
    
     
 }
+
 ul {
     list-style-type: none;
 }
 #social-ul {
-    
+    display: flex;
+    height: 45vh;
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
     font-size: 10px;
     background-color: $nav-hover;
+    justify-content: center;
+
   
     
     .social-item {
-        display: inline block;
+        display: flex;
         width: 25%;
         vertical-align: middle;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+        align-items: center;
+        
         
     }
     .soc-cell {
@@ -70,7 +80,7 @@ ul {
         width: 100%;
         text-align: center;
         text-transform: normal;
-        font-size: 24px;
+        font-size: 1em;
         font-weight: bold;
         font-family: $main-font-family;
         font-weight: normal !important;

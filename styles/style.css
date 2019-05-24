@@ -9,6 +9,12 @@
   color: #fdbf00;
 }
 
+@media screen and (min-width: 485px) {
+  #proj-h2 {
+    font-size: 2em;
+  }
+}
+
 #projects-container {
   height: 100vh;
   display: -webkit-box;
@@ -24,6 +30,12 @@
   width: 80%;
   margin-left: 30px;
   margin-top: 5px;
+}
+
+@media screen and (min-width: 485px) {
+  #projects-container h3, #projects-container p {
+    font-size: 1.5em;
+  }
 }
 
 #grid {
@@ -103,6 +115,18 @@ section {
   width: 100%;
 }
 
+#essence {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Allura", cursive;
+  color: #6e069e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-size: 1.75em;
+}
+
 #home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,6 +137,12 @@ section {
       align-content: space-between;
   height: 85vh;
   background-color: #f7f6ee;
+}
+
+@media screen and (min-width: 485px) {
+  #home-container {
+    font-size: 1.5em;
+  }
 }
 
 #home-container #bg-img {
@@ -224,26 +254,44 @@ section {
       flex-wrap: wrap;
 }
 
+@media screen and (min-width: 485px) {
+  #contact-container {
+    font-size: 1.5em;
+  }
+}
+
 ul {
   list-style-type: none;
 }
 
 #social-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45vh;
   max-width: 900px;
   margin: 0 auto;
   padding: 0;
   font-size: 10px;
   background-color: #a974c4;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #social-ul .social-item {
-  display: inline block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
   vertical-align: middle;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #social-ul .soc-cell {
@@ -291,7 +339,7 @@ ul {
   width: 100%;
   text-align: center;
   text-transform: normal;
-  font-size: 24px;
+  font-size: 1em;
   font-weight: bold;
   font-family: "Lato", sans-serif;
   font-weight: normal !important;
@@ -351,6 +399,12 @@ body {
       align-content: space-between;
 }
 
+@media screen and (min-width: 485px) {
+  #page-container {
+    font-size: 1.5em;
+  }
+}
+
 header {
   background-color: #b64e64;
   font-family: "Allura", cursive;
@@ -358,6 +412,7 @@ header {
   margin: 0;
   padding: 5px 20px;
   width: 100%;
+  font-size: 2em;
 }
 
 #footer {
