@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Allura|Lato:300i&display=swap');
-@import 'helpers/variables';
-@import 'helpers/mixins';
-@import 'partials/projects';
-@import 'partials/home';
+@import 'styles/helpers/variables.scss';
+@import 'styles/helpers/mixins.scss';
+@import 'styles/partials/_projects.scss';
+@import 'styles/partials/_home.scss';
 @import 'partials/about';
-@import 'partials/contact';
-@import 'partials/page';
+@import 'styles/partials/_contact.scss';
+@import 'styles/partials/_page.scss;
 
 
  

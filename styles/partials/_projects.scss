@@ -29,7 +29,7 @@
     width: 60%;
     height: 35vh;
     margin: auto;
-    padding: 15px; /* Clears unordered list default of 40px */
+    padding: 15px; /* Clears unordered list default */
     @include beehive;
     padding-top: 30px;
     @include desktop{
