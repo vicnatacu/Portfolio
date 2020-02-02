@@ -26,14 +26,17 @@ header {
     }
 }
 
+
+
 #footer {
-    align-self:end;
+    align-self: end;
     padding: 5px 10px;
     background-color: $main-bgcolor;
     border-top: 3px solid $hexagon-color;
     font-family: $secondary-font-family;
     font-style: $secondary-font-style;
-    width: 100%;
+    width: 100%
+   
 }
 
 .topnav {
@@ -69,6 +72,8 @@ header {
     color: $navtext-color;
     text-align: center;
     padding: 14px 16px;
+    margin: 7px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0 , 0 .5)
     text-decoration: none;
     font-size: 17px;
     img {

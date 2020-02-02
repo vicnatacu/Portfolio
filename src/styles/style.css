@@ -246,7 +246,7 @@ section {
   -ms-flex-line-pack: justify;
       align-content: space-between;
   height: 85vh;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 @media screen and (min-width: 485px) {
@@ -270,7 +270,7 @@ section {
 }
 
 body {
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 #page-container {
@@ -290,7 +290,7 @@ body {
 }
 
 header {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   font-family: "Biryani:600", sans-serif;
   color: #368F96;
   letter-spacing: 0.3;
@@ -308,7 +308,7 @@ header h1 {
       -ms-grid-row-align: end;
       align-self: end;
   padding: 5px 10px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   border-top: 3px solid #165559;
   font-family: "Biryani:600", sans-serif;
   font-style: italic;
@@ -316,7 +316,7 @@ header h1 {
 }
 
 .topnav {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   overflow: hidden;
   margin: 0px;
   padding: 14px 14px;
@@ -351,6 +351,7 @@ header h1 {
   color: #090909;
   text-align: center;
   padding: 14px 16px;
+  margin: 5px;
   text-decoration: none;
   font-size: 17px;
 }
