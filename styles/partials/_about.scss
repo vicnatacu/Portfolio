@@ -1,0 +1,66 @@
+#h-a {
+    @include h2-style;
+    color: $pale-green;
+}
+
+
+.more {
+    display: none;
+
+    &.myBtn {
+        display: inline-block;
+
+    }
+}
+
+.hide-me {
+    display: none;
+}
+
+#giraffe-img {
+    border-radius: 100%;
+    margin-left: auto;
+    padding: 5px 20px;
+    
+
+}
+
+.about {
+    width: 80%;
+    background: white !important;
+    margin: 10% auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        display: block;
+        width: 100%;
+        padding-left: 20px;
+
+    }
+
+    table {
+        th {
+            padding: 12px 6px;
+            text-align: left;
+            background-color: $pale-green;
+            color: white;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: hsl(0, 8%, 85%);
+        }
+
+
+    }
+
+
+
+
+}
