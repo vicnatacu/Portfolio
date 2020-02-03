@@ -9,7 +9,8 @@ section {
 #essence {
     display: flex;
     font-family: $secondary-font-family;
-    color: $navbar-bgcolor;
+    font-style: $secondary-font-style;
+    color: $nav-active;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
@@ -34,7 +35,7 @@ section {
     }
     
     #bg-img {
-        opacity: 0.5;
+        opacity: 0.65;
         width: 100vw;
         height: 50vh;
         padding: 5px 0;
@@ -45,5 +46,4 @@ section {
       
     }
 }
-
 
