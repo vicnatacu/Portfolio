@@ -27,7 +27,7 @@
 #grid {
     position: relative;
     width: 60%;
-    height: 35vh;
+    height: auto;
     margin: auto;
     padding: 15px; /* Clears unordered list default */
     @include beehive;
