@@ -13,22 +13,16 @@ section {
 #home-container {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
-    height: 85vh;
+    height: auto;
     background-color: $main-bgcolor;
     @include desktop {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
     #bg-img {
         opacity: 0.65;
-        width: 100vw;
-        height: 50vh;
-        padding: 5px 0;
-        margin: 40px 0;
-        @include desktop {
-            height: auto;
-        }
+        width: 100%;
+        @include desktop 
       
     }
 }

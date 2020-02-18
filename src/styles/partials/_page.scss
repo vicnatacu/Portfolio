@@ -1,6 +1,6 @@
 body {
     background: $main-bgcolor;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ body {
     flex-wrap: wrap;
     align-content: space-between;
     @include desktop {
-        font-size: 1.5em;
+        font-size: auto;
     }
 
 
@@ -21,11 +21,9 @@ header {
     font-family: $secondary-font-family;
     color: $main-color;
     letter-spacing: $letter-spacing;
-    margin: 0;
-    padding: 5px 20px;
     width: 100%;
     h1  {
-        font-size: 2em;
+        font-size: auto;
     }
 }
 
@@ -33,7 +31,7 @@ header {
 
 #footer {
     align-self: end;
-    padding: 5px 10px;
+    padding: 5px;
     background-color: $main-bgcolor;
     border-top: 3px solid $hexagon-color;
     font-family: $secondary-font-family;
@@ -45,8 +43,7 @@ header {
 .topnav {
     background-color: $navbar-bgcolor;
     overflow: hidden;
-    margin: 0px;
-    padding: 14px 14px;
+    padding: 5px 0px;
     @include mobile {
         a:not(:first-child) {display: none;}
         a.icon {
@@ -74,7 +71,6 @@ header {
     display: block;
     color: $navtext-color;
     text-align: center;
-    padding: 14px 16px;
     margin: 7px;
     box-shadow: 0 5px 5px 0 rgba(0, 0 , 0 .5);
     text-decoration: none;
@@ -101,10 +97,6 @@ header {
 
 .responsive img {
     display: inline-block !important;
-    float: right;
-    padding-right: 10px;
-    height: 40px;
-    width: auto;
     
 }
 

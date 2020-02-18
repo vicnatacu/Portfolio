@@ -2,8 +2,6 @@
 #h-a {
   font-family: "Raleway", sans-serif;
   margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   color: #85C4C9;
 }
 
@@ -22,7 +20,7 @@
 #giraffe-img {
   border-radius: 100%;
   margin-left: auto;
-  padding: 5px 20px;
+  padding: 0px;
 }
 
 .about {
@@ -64,8 +62,6 @@
 #c-h {
   font-family: "Raleway", sans-serif;
   margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   color: #368F96;
 }
 
@@ -227,7 +223,6 @@ section {
   color: #368F96;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
   font-size: 1em;
 }
 
@@ -251,7 +246,7 @@ section {
 
 @media screen and (min-width: 485px) {
   #home-container {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -260,7 +255,7 @@ section {
   width: 100vw;
   height: 50vh;
   padding: 5px 0;
-  margin: 40px 0;
+  margin:  0;
 }
 
 @media screen and (min-width: 485px) {
@@ -295,19 +290,19 @@ header {
   color: #368F96;
   letter-spacing: 0.3;
   margin: 0;
-  padding: 5px 20px;
+  padding: 5px;
   width: 100%;
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #footer {
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
-  padding: 5px 10px;
+  padding: 5px;
   background-color: #ffffff;
   border-top: 3px solid #165559;
   font-family: "Biryani:600", sans-serif;
@@ -376,10 +371,8 @@ header h1 {
 
 .responsive img {
   display: inline-block !important;
-  float: right;
-  padding-right: 10px;
-  height: 40px;
-  width: auto;
+  
+
 }
 
 #flower {
@@ -390,8 +383,6 @@ header h1 {
 #proj-h2 {
   font-family: "Raleway", sans-serif;
   margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   width: 100%;
   color: #165559;
 }
@@ -415,7 +406,6 @@ header h1 {
   font-family: "Raleway", sans-serif;
   width: 80%;
   margin-left: 30px;
-  margin-top: 5px;
 }
 
 #grid {
