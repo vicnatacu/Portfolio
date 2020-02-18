@@ -98,6 +98,9 @@
   - Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
     - I believe we owe a lot to US Department of Defense, Robert Kahn, Vint Cerf, and Tim Berners-Lee for what some might say we take for granted when trolling on the internet on our phones, tablets, and computers.  The World Wide Web as we now know it, has been revoluntionary to the worlds population. When I reflect about what changes the internet has lead to, I think about how it has made the world smaller.
     - It has lead to sharing information and technology around the world.  We have seen huge changes in science, technology, communications and the birth of social networking.
+  - Vicki's CV's
+  - [Vicki  Design Resume](../../images/Vicki-Coleman-Resume-2020DES.jpg)
+  - [Vicki Developer Resume](../../images/Vicki-Coleman-Resume-2020FS.jpg)
 
   - Powerpoint Presentation
     [Vicki Coleman Portfolio](ppt/Vicki-Coleman-Portfolio.pdf)
